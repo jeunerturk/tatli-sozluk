@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A70451228EE314C00FB1ABE /* NewEntryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A70451128EE314C00FB1ABE /* NewEntryVC.swift */; };
 		1ABFB6C828EE1C5B00F938A5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABFB6C728EE1C5B00F938A5 /* AppDelegate.swift */; };
 		1ABFB6CA28EE1C5B00F938A5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABFB6C928EE1C5B00F938A5 /* SceneDelegate.swift */; };
 		1ABFB6CC28EE1C5B00F938A5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABFB6CB28EE1C5B00F938A5 /* ViewController.swift */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1A70451128EE314C00FB1ABE /* NewEntryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewEntryVC.swift; sourceTree = "<group>"; };
 		1ABFB6C428EE1C5B00F938A5 /* TatliSozluk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TatliSozluk.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1ABFB6C728EE1C5B00F938A5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1ABFB6C928EE1C5B00F938A5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -44,6 +46,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1A70450E28EE30CD00FB1ABE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1ABFB6CB28EE1C5B00F938A5 /* ViewController.swift */,
+				1A70451128EE314C00FB1ABE /* NewEntryVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1A70450F28EE30D500FB1ABE /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1A70451028EE30D900FB1ABE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		1ABFB6BB28EE1C5A00F938A5 = {
 			isa = PBXGroup;
 			children = (
@@ -65,9 +90,11 @@
 		1ABFB6C628EE1C5B00F938A5 /* TatliSozluk */ = {
 			isa = PBXGroup;
 			children = (
+				1A70451028EE30D900FB1ABE /* Model */,
+				1A70450F28EE30D500FB1ABE /* View */,
+				1A70450E28EE30CD00FB1ABE /* Controller */,
 				1ABFB6C728EE1C5B00F938A5 /* AppDelegate.swift */,
 				1ABFB6C928EE1C5B00F938A5 /* SceneDelegate.swift */,
-				1ABFB6CB28EE1C5B00F938A5 /* ViewController.swift */,
 				1ABFB6CD28EE1C5B00F938A5 /* Main.storyboard */,
 				1ABFB6D028EE1C5B00F938A5 /* Assets.xcassets */,
 				1ABFB6DB28EE1DA300F938A5 /* GoogleService-Info.plist */,
@@ -83,7 +110,6 @@
 				D875C70F8C5E6ECCD2D0057F /* Pods-TatliSozluk.debug.xcconfig */,
 				B8D30FB8AD24D5D71EB5B930 /* Pods-TatliSozluk.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -211,6 +237,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A70451228EE314C00FB1ABE /* NewEntryVC.swift in Sources */,
 				1ABFB6CC28EE1C5B00F938A5 /* ViewController.swift in Sources */,
 				1ABFB6C828EE1C5B00F938A5 /* AppDelegate.swift in Sources */,
 				1ABFB6CA28EE1C5B00F938A5 /* SceneDelegate.swift in Sources */,
