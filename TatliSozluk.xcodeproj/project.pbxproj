@@ -1,0 +1,438 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1ABFB6C828EE1C5B00F938A5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABFB6C728EE1C5B00F938A5 /* AppDelegate.swift */; };
+		1ABFB6CA28EE1C5B00F938A5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABFB6C928EE1C5B00F938A5 /* SceneDelegate.swift */; };
+		1ABFB6CC28EE1C5B00F938A5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABFB6CB28EE1C5B00F938A5 /* ViewController.swift */; };
+		1ABFB6CF28EE1C5B00F938A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1ABFB6CD28EE1C5B00F938A5 /* Main.storyboard */; };
+		1ABFB6D128EE1C5B00F938A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1ABFB6D028EE1C5B00F938A5 /* Assets.xcassets */; };
+		1ABFB6D428EE1C5B00F938A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1ABFB6D228EE1C5B00F938A5 /* LaunchScreen.storyboard */; };
+		1ABFB6DC28EE1DA300F938A5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1ABFB6DB28EE1DA300F938A5 /* GoogleService-Info.plist */; };
+		EF705090D0AADFC5DE6757F3 /* Pods_TatliSozluk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EB38F08511CD961F4D88383 /* Pods_TatliSozluk.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1ABFB6C428EE1C5B00F938A5 /* TatliSozluk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TatliSozluk.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1ABFB6C728EE1C5B00F938A5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1ABFB6C928EE1C5B00F938A5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1ABFB6CB28EE1C5B00F938A5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1ABFB6CE28EE1C5B00F938A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1ABFB6D028EE1C5B00F938A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1ABFB6D328EE1C5B00F938A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1ABFB6D528EE1C5B00F938A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1ABFB6DB28EE1DA300F938A5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		6EB38F08511CD961F4D88383 /* Pods_TatliSozluk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TatliSozluk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8D30FB8AD24D5D71EB5B930 /* Pods-TatliSozluk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TatliSozluk.release.xcconfig"; path = "Target Support Files/Pods-TatliSozluk/Pods-TatliSozluk.release.xcconfig"; sourceTree = "<group>"; };
+		D875C70F8C5E6ECCD2D0057F /* Pods-TatliSozluk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TatliSozluk.debug.xcconfig"; path = "Target Support Files/Pods-TatliSozluk/Pods-TatliSozluk.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1ABFB6C128EE1C5A00F938A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF705090D0AADFC5DE6757F3 /* Pods_TatliSozluk.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1ABFB6BB28EE1C5A00F938A5 = {
+			isa = PBXGroup;
+			children = (
+				1ABFB6C628EE1C5B00F938A5 /* TatliSozluk */,
+				1ABFB6C528EE1C5B00F938A5 /* Products */,
+				515F4A1D30EB18FCE749BF8E /* Pods */,
+				67C3B7C3EA431C65836A6B87 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1ABFB6C528EE1C5B00F938A5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1ABFB6C428EE1C5B00F938A5 /* TatliSozluk.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1ABFB6C628EE1C5B00F938A5 /* TatliSozluk */ = {
+			isa = PBXGroup;
+			children = (
+				1ABFB6C728EE1C5B00F938A5 /* AppDelegate.swift */,
+				1ABFB6C928EE1C5B00F938A5 /* SceneDelegate.swift */,
+				1ABFB6CB28EE1C5B00F938A5 /* ViewController.swift */,
+				1ABFB6CD28EE1C5B00F938A5 /* Main.storyboard */,
+				1ABFB6D028EE1C5B00F938A5 /* Assets.xcassets */,
+				1ABFB6DB28EE1DA300F938A5 /* GoogleService-Info.plist */,
+				1ABFB6D228EE1C5B00F938A5 /* LaunchScreen.storyboard */,
+				1ABFB6D528EE1C5B00F938A5 /* Info.plist */,
+			);
+			path = TatliSozluk;
+			sourceTree = "<group>";
+		};
+		515F4A1D30EB18FCE749BF8E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D875C70F8C5E6ECCD2D0057F /* Pods-TatliSozluk.debug.xcconfig */,
+				B8D30FB8AD24D5D71EB5B930 /* Pods-TatliSozluk.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		67C3B7C3EA431C65836A6B87 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6EB38F08511CD961F4D88383 /* Pods_TatliSozluk.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1ABFB6C328EE1C5A00F938A5 /* TatliSozluk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1ABFB6D828EE1C5B00F938A5 /* Build configuration list for PBXNativeTarget "TatliSozluk" */;
+			buildPhases = (
+				283674BA6E3779DFE4CCFCB4 /* [CP] Check Pods Manifest.lock */,
+				1ABFB6C028EE1C5A00F938A5 /* Sources */,
+				1ABFB6C128EE1C5A00F938A5 /* Frameworks */,
+				1ABFB6C228EE1C5A00F938A5 /* Resources */,
+				B7511D71343FA4B7500A266B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TatliSozluk;
+			productName = TatliSozluk;
+			productReference = 1ABFB6C428EE1C5B00F938A5 /* TatliSozluk.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1ABFB6BC28EE1C5A00F938A5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					1ABFB6C328EE1C5A00F938A5 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 1ABFB6BF28EE1C5A00F938A5 /* Build configuration list for PBXProject "TatliSozluk" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1ABFB6BB28EE1C5A00F938A5;
+			productRefGroup = 1ABFB6C528EE1C5B00F938A5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1ABFB6C328EE1C5A00F938A5 /* TatliSozluk */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1ABFB6C228EE1C5A00F938A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1ABFB6D428EE1C5B00F938A5 /* LaunchScreen.storyboard in Resources */,
+				1ABFB6DC28EE1DA300F938A5 /* GoogleService-Info.plist in Resources */,
+				1ABFB6D128EE1C5B00F938A5 /* Assets.xcassets in Resources */,
+				1ABFB6CF28EE1C5B00F938A5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		283674BA6E3779DFE4CCFCB4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TatliSozluk-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B7511D71343FA4B7500A266B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TatliSozluk/Pods-TatliSozluk-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TatliSozluk/Pods-TatliSozluk-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TatliSozluk/Pods-TatliSozluk-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1ABFB6C028EE1C5A00F938A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1ABFB6CC28EE1C5B00F938A5 /* ViewController.swift in Sources */,
+				1ABFB6C828EE1C5B00F938A5 /* AppDelegate.swift in Sources */,
+				1ABFB6CA28EE1C5B00F938A5 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1ABFB6CD28EE1C5B00F938A5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1ABFB6CE28EE1C5B00F938A5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1ABFB6D228EE1C5B00F938A5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1ABFB6D328EE1C5B00F938A5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1ABFB6D628EE1C5B00F938A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1ABFB6D728EE1C5B00F938A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1ABFB6D928EE1C5B00F938A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D875C70F8C5E6ECCD2D0057F /* Pods-TatliSozluk.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CQG7337NDP;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TatliSozluk/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.umuterturk.TatliSozluk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1ABFB6DA28EE1C5B00F938A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8D30FB8AD24D5D71EB5B930 /* Pods-TatliSozluk.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CQG7337NDP;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TatliSozluk/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.umuterturk.TatliSozluk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1ABFB6BF28EE1C5A00F938A5 /* Build configuration list for PBXProject "TatliSozluk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1ABFB6D628EE1C5B00F938A5 /* Debug */,
+				1ABFB6D728EE1C5B00F938A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1ABFB6D828EE1C5B00F938A5 /* Build configuration list for PBXNativeTarget "TatliSozluk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1ABFB6D928EE1C5B00F938A5 /* Debug */,
+				1ABFB6DA28EE1C5B00F938A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1ABFB6BC28EE1C5A00F938A5 /* Project object */;
+}
